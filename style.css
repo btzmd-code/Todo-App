@@ -114,3 +114,23 @@ ul li span{
 ul li span::hover{
   background: #edeef0;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .todo-app {
+    max-width: 70%;
+    margin: 80px auto 10px;
+    padding: 30px;
+  }
+
+  /* Adjust other styles as needed for tablets */
+}
+
+@media only screen and (min-width: 992px) {
+  .todo-app {
+    max-width: 80%;
+    margin: 100px auto 20px;
+    padding: 40px 30px 20px;
+  }
+  /* Adjust other styles for larger screens */
+}
+
